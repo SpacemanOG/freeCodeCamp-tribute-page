@@ -1,0 +1,137 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Caveat', cursive;
+}
+
+#main {
+    background-color: #404348;
+}
+
+#title {
+    height: 100vh;
+    padding-top: 16vh;
+}
+
+#img-div {
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+#theImageContainer {
+    min-width: 322px;
+    min-height: 341px;
+}
+
+/* THIS IS THE EXTRA IMAGE TO MEET THE REQUIREMENTS */
+#image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+/* WHY DO I NEED TO CENTER THE IMAGE WITHIN ITS PARENT? I HAVE A GOOD THING GOING ON HERE */
+#imageOg {
+    border-right: 16px solid #222222;
+    border-radius: 50%;
+    display: block;
+    max-width: 100%;
+    /* height: auto; */
+    background-color: #A8ABB1;
+    /* I TRIED TO CENTER THE IMAGE USING MARGIN: 0 AUTO; BUT THAT DOESN'T WORK. WHAT DO I DO NOW? */
+    /* margin: 0 auto; */
+}
+
+#img-caption {
+    padding-left: 80px;
+}
+
+#img-caption h2,
+#img-caption h3 {
+    color: #A8ABB1;
+}
+
+#img-caption h1 {
+    font-size: 8vw;
+    margin: 0;
+    color: #222222;
+}
+
+#img-caption h2 {
+    margin: 0;
+    padding: 0 0 1rem 0;
+    font-size: 3.2vw;
+}
+
+#img-caption h3 {
+    margin: 0;
+    padding: 1rem 0;
+    font-size: .88rem;
+}
+
+#iconDown {
+    width: 100%;
+    padding-top: 2vh;
+}
+
+ion-icon {
+    font-size: 8rem;
+    color: #222222;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+ion-icon:hover {
+    color: #A8ABB1;
+}
+
+#iconConnector ion-icon {
+    margin-left: 50%;
+    font-size: 2rem;
+}
+
+#tribute-info {
+    padding: 16vh 0;
+    background-color: #c2976c;
+}
+
+#tribute-info-container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#footer {
+    padding: 2rem 0;
+}
+
+#footer h3 {
+    color: #222222;
+    text-align: center;
+}
+
+#footer p {
+    text-align: center;
+    color: #c2976c;
+}
+
+#footer a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #A8ABB1;
+}
